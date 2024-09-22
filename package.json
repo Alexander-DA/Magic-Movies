@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Soft-Uni project with Express.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/index.js"
   },

@@ -1,1 +1,1 @@
-console.log('Just works');
+import express from 'express';
