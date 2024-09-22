@@ -9,4 +9,4 @@ A Soft-Uni project with Express.js
 2. Setup Express
 3. Setup handlebars
 4. Add resources
- 
+5. Setup static route
