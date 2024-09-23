@@ -49,6 +49,16 @@
       "rating": 8,
       "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
       "id": "8d0rghkj4m1ew3j3p"
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "genre": "Comedy",
+      "director": " Shawn Levy",
+      "year": "2024",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "rating": 8,
+      "description": "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
+      "id": "8d0rghaucm1f8e3rt"
     }
   ]
 }
