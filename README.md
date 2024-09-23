@@ -16,3 +16,4 @@ A Soft-Uni project with Express.js
 9. Add service and data layers
 10. Add create page
 11. Add details page
+12. Add search page
