@@ -4,7 +4,7 @@ A Soft-Uni project with Express.js
 ## Start project
 `npm run dev` - for developing
 
-## Developing Steps
+## Developing Steps - Workshop 1
 1. Initial Project Architecture
 2. Setup Express
 3. Setup handlebars
@@ -17,3 +17,8 @@ A Soft-Uni project with Express.js
 10. Add create page
 11. Add details page
 12. Add search page
+
+## Developing Steps - Workshop 2
+1. Extract init files
+2. Setup mongoose
+3. Add models
