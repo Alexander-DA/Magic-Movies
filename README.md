@@ -29,8 +29,12 @@ A Soft-Uni project with Express.js
 8. Show cast in details page
 
 Bonus:
-[ ] Add model validations
+[X] Rating helper
 [ ] Fix filtering for movies
-[ ] Add character name
 [ ] Filter cast based on added ones
+[ ] Add character name
 [ ] Atlas
+
+Next time:
+[ ] Add model validations
+
