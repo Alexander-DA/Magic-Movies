@@ -25,6 +25,8 @@ A Soft-Uni project with Express.js
 4. Convert file based storage to db storage
 5. Add cast model
 6. Add create cast page
+7. Add attach cast page
+
 
 
 * Add model validations
