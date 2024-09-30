@@ -30,7 +30,7 @@ A Soft-Uni project with Express.js
 
 Bonus:
 [X] Rating helper
-[ ] Fix filtering for movies
+[X] Fix filtering for movies
 [ ] Filter cast based on added ones
 [ ] Add character name
 [ ] Atlas

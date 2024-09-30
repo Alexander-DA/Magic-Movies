@@ -4,10 +4,6 @@ import castService from "../services/castService.js";
 
 const router = Router();
 
-function toArray(documents) {
-    return documents.map(document => document.toObject())
-}
-
 // URL: /movies/create
 router.get('/create', (req, res) => {
     res.render('movies/create')
@@ -30,9 +26,9 @@ router.get('/:movieId/details', async (req, res) => {
 
 router.get('/search', async (req, res) => {
     const filter = req.query;
-    const movies = await movieService.getAll(filter);
+    const movies = await movieService.getAll(filter).lean();
 
-    res.render('home', { isSearch: true, movies: toArray(movies), filter })
+    res.render('home', { isSearch: true, movies, filter })
 })
 
 router.get('/:movieId/attach', async (req, res) => {
