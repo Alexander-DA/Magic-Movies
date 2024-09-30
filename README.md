@@ -26,10 +26,11 @@ A Soft-Uni project with Express.js
 5. Add cast model
 6. Add create cast page
 7. Add attach cast page
+8. Show cast in details page
 
-
-
-* Add model validations
-* Fix filtering for movies
-* Add character name
-* Filter cast based on added ones
+Bonus:
+[ ] Add model validations
+[ ] Fix filtering for movies
+[ ] Add character name
+[ ] Filter cast based on added ones
+[ ] Atlas
