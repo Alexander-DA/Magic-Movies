@@ -32,3 +32,4 @@ A Soft-Uni project with Express.js
 * Add model validations
 * Fix filtering for movies
 * Add character name
+* Filter cast based on added ones
