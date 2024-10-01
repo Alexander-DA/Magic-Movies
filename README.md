@@ -34,6 +34,7 @@ Bonus:
 [ ] Filter cast based on added ones
 [ ] Add character name
 [ ] Atlas
+[ ] env file
 
 Next time:
 [ ] Add model validations

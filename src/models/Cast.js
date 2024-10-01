@@ -6,10 +6,10 @@ const castSchema = new Schema({
     born: String,
     nameInMovie: String,
     imageUrl: String,
-    movies: [{
-        type: Types.ObjectId,
-        ref: 'Movie'
-    }]
+    // movies: [{
+    //     type: Types.ObjectId,
+    //     ref: 'Movie'
+    // }]
 });
 
 const Cast = model('Cast', castSchema);
