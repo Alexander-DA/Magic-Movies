@@ -31,11 +31,12 @@ A Soft-Uni project with Express.js
 Bonus:
 [X] Rating helper
 [X] Fix filtering for movies
-[ ] Filter cast based on added ones
-[ ] Add character name
-[ ] Atlas
-[ ] env file
+[X] Filter cast based on added ones
+[X] Add character name
+[X] Atlas
+[X] env file
 
-Next time:
+## Developing Steps - Workshop 2
+[ ] Fix bug from previous workshop
 [ ] Add model validations
-
+[ ] Select dropdown with pre-populated value
