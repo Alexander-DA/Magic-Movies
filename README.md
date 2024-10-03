@@ -37,6 +37,17 @@ Bonus:
 [X] env file
 
 ## Developing Steps - Workshop 2
-[ ] Fix bug from previous workshop
-[ ] Add model validations
+[X] Fix bug from previous workshop
+[ ] Add register page 
+    [ ] Add User Model
+    [ ] Auth controller
+    [ ] Add auth service
+[ ] Add login page 
+[ ] Add dynamic navigation
+
+Bonus:
+[ ] Automatic login for registered users
 [ ] Select dropdown with pre-populated value
+
+## Next Time
+[ ] Add model validations
