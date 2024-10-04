@@ -47,7 +47,8 @@ Bonus:
     [X] Validate hashed password
     [X] Create jwt token `npm i jsonwebtoken`
     [X] Add token to cookie `npm i cookie-parser`
-[ ] Add authorization
+[X] Add authorization
+[ ] Add owner control buttons in details page
 [ ] Add dynamic navigation
 
 Bonus:
