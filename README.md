@@ -48,6 +48,7 @@ Bonus:
     [X] Create jwt token `npm i jsonwebtoken`
     [X] Add token to cookie `npm i cookie-parser`
 [X] Add authorization
+[X] Add owner relation to movie
 [ ] Add owner control buttons in details page
 [ ] Add dynamic navigation
 
