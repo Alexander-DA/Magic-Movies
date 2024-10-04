@@ -43,7 +43,10 @@ Bonus:
     [X] Auth controller
     [X] Add auth service
 [X] Hash password before save
-[ ] Add login page 
+[X] Add login page 
+    [ ] Validate hashed password
+    [ ] Create jwt token
+    [ ] Add token to cookie
 [ ] Add dynamic navigation
 
 Bonus:
