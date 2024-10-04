@@ -44,13 +44,14 @@ Bonus:
     [X] Add auth service
 [X] Hash password before save
 [X] Add login page 
-    [ ] Validate hashed password
-    [ ] Create jwt token
+    [X] Validate hashed password
+    [X] Create jwt token
     [ ] Add token to cookie
 [ ] Add dynamic navigation
 
 Bonus:
 [ ] Automatic login for registered users
+[ ] Make jwt library asynchronous
 [ ] Select dropdown with pre-populated value
 
 ## Next Time
