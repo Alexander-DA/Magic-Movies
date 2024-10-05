@@ -55,13 +55,13 @@ Bonus:
 [X] Add dynamic navigation
 [X] Logout
 [X] Add route guard
-
+[X] Show email for logged in user
 
 Bonus:
-[ ] Automatic login for registered users
-[ ] Make jwt library asynchronous
-[ ] Select dropdown with pre-populated value
+[X] Automatic login for registered users
+[X] Make jwt library asynchronous
 
 ## Next Time
 [ ] Validate rePassword
 [ ] Add model validations
+[ ] Select dropdown with pre-populated value
