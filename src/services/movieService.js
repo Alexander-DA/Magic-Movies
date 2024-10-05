@@ -32,11 +32,13 @@ const attach = async (movieId, castId, character) => {
     // return movie.save();
 
     return Movie.findByIdAndUpdate(movieId, { $push: { casts: { cast: castId, character } } });
-}
+};
 
+const remove = (movieId) => Movie.findByIdAndDelete(movieId);
 export default {
     getAll,
     create,
     getOne,
+    remove,
     attach
 }
