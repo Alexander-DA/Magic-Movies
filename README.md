@@ -49,7 +49,9 @@ Bonus:
     [X] Add token to cookie `npm i cookie-parser`
 [X] Add authorization
 [X] Add owner relation to movie
-[ ] Add owner control buttons in details page
+[X] Add owner control buttons in details page
+[X] Delete movie
+[ ] Edit movie
 [ ] Add dynamic navigation
 
 Bonus:
