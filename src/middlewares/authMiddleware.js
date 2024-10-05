@@ -17,6 +17,7 @@ export const authMiddleware = (req, res, next) => {
         }
 
         req.user = user;
+        req.isAuthenticated = true;
         res.locals.userId = user._id;
         res.locals.userEmail = user.email;
         res.locals.isAuthenticated = true;
@@ -30,3 +31,11 @@ export const authMiddleware = (req, res, next) => {
 
     // Add user data to request
 };
+
+export const isAuth = (req, res, next) => {
+    if (!req.isAuthenticated) {
+        return res.redirect('/auth/login');
+    }
+
+    return next();
+}

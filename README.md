@@ -51,9 +51,11 @@ Bonus:
 [X] Add owner relation to movie
 [X] Add owner control buttons in details page
 [X] Delete movie
-[ ] Edit movie
-[ ] Logout
-[ ] Add dynamic navigation
+[X] Edit movie
+[X] Add dynamic navigation
+[X] Logout
+[X] Add route guard
+
 
 Bonus:
 [ ] Automatic login for registered users
