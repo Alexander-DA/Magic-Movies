@@ -1,6 +1,7 @@
 import { Router } from "express";
 import authService from "../services/authService.js";
 import validator from "validator";
+import { getErrorMessage } from "../utils/errorUtils.js";
 
 const router = Router();
 
@@ -11,11 +12,20 @@ router.get('/register', (req, res) => {
 router.post('/register', async (req, res) => {
     const { email, password, rePassword } = req.body;
 
-    if (!validator.isEmail(email)) {
-        return res.status(400).end();
+    // if (!validator.isEmail(email)) {
+    //     return res.status(400).end();
+    // }
+
+    // if (password !== rePassword) {
+    //     return res.status(400).end();
+    // }
+
+    try {
+        await authService.register(email, password, rePassword);
+    } catch(err) {
+        return res.render('auth/register', { error: getErrorMessage(err), email });
     }
 
-    await authService.register(email, password);
     const token = await authService.login(email, password);
 
     res.cookie('auth', token, { httpOnly: true });
@@ -45,3 +55,4 @@ router.get('/logout', (req, res) => {
 })
 
 export default router;
+//'1or1=1;--
